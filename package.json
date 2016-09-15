@@ -1,0 +1,16 @@
+{
+    "name": "rink-lambda",
+    "version": "1.0.0",
+    "description": "Convert feedback entries from Hockey Webhook posts to JIRA tickets.",
+    "license": "Apache 2.0",
+    "private": true,
+    "main": "index.js",
+    "author": "Chad Robinson",
+    "dependencies": {
+        "bluebird": "^3.3.4",
+        "jira-connector": "^2.0.0",
+        "request": "^2.69.0"
+    },
+    "devDependencies": {
+    }
+}
